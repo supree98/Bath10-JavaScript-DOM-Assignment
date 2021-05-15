@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouseover Demo</title>
+</head>
+<body>
+    <script>
+        function styleOne() {
+            document.getElementById("mouseover").style.width = "200px";
+            document.getElementById("mouseover").style.background = "blue";
+            document.getElementById("mouseover").innerHTML = "Hello User"
+        }
+        function styleTwo() {
+            document.getElementById("mouseover").style.background = "none";
+            document.getElementById("mouseover").innerHTML = "Hello User"
+        }
+    </script>
+
+    <h1 id="mouseover" onmouseover="styleOne()" onmouseout="styleTwo()" style="width:200px;">Hello User</h1>
+    <p>mouse over on above text</p>
+    <h1 id="click" onclick=""
+
+</body>
+</html>
